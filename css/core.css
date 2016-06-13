@@ -2,7 +2,7 @@ body, html { min-height: 100%; margin: 0; padding: 0; font-family: 微软雅黑,
 .clearfix:after{content:'.';display: block; clear: both; height: 0; overflow: hidden; visibility: hidden;}
 a{color: #21a557;}
 .g-header{height: 585px; min-width: 1205px;}
-.bg{ background-color: #f3f3f3; }
+.bg{ background-color: #f3f3f3; width:100%;}
 .m-notice{height:36px; width:1205px; font-size: 12px; margin: 0 auto;}
 .m-notice .content{line-height: 36px; }
 .m-notice .close{ float: right; margin-top: 9px; cursor: pointer;}
