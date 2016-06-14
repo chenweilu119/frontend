@@ -28,7 +28,7 @@ a{color: #21a557;}
 .g-header .m-title .search:hover{ background: url(../images/group-small.png) no-repeat -6px 0px; margin-left: -25px;}
 .g-header .m-viewpaper{clear: both; position: relative; width: 100%; height: 460px; overflow: hidden; } 
 .g-header .viewpaper{ position: absolute; left: 50%; margin-left: -826px; width: 1652px; height: 460px; }
-.g-header .viewpaperContainer img{opacity: 0; transition: opacity .5s ease-in-out;}
+.g-header .viewpaperContainer img{opacity: 0; -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; -o-transition: opacity .5s ease-in-out; transition: opacity .5s ease-in-out;}
 .g-header .m-viewpaper .existed{opacity: 1;}
 .g-header .m-pointer{position: absolute; left: 50%; bottom: 20px; z-index: 2;}
 .g-header .m-pointer .selected{background-color: #333;}
