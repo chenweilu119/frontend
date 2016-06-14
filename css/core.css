@@ -2,7 +2,7 @@ body, html { min-height: 100%; margin: 0; padding: 0; font-family: 微软雅黑,
 .clearfix:after{content:'.';display: block; clear: both; height: 0; overflow: hidden; visibility: hidden;}
 a{color: #21a557;}
 .g-header{height: 585px; min-width: 1205px;}
-.bg{ background-color: #f3f3f3; width:1205px;}
+.bg{ background-color: #f3f3f3;}
 .m-notice{height:36px; width:1205px; font-size: 12px; margin: 0 auto;}
 .m-notice .content{line-height: 36px; }
 .m-notice .close{ float: right; margin-top: 9px; cursor: pointer;}
@@ -50,6 +50,7 @@ a{color: #21a557;}
 .g-center .m-pic .m-pic1{position: absolute; left: 50%; width:1620px; transform:translateX(-810px);}
 @media screen and (min-width: 1205px) {.g-center .m-main {position: relative; width: 1205px; margin: 0 auto; overflow: hidden;} }
 @media screen and (max-width: 1205px) {
+body{min-width:959px;}
 .m-notice, .g-header .m-title, .g-center .m-nav{width:959px;}
 .g-header, .g-center{min-width: 959px;}
 .g-footer .m-right{margin-left: 50px;}
