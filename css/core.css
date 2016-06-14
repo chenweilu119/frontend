@@ -50,6 +50,7 @@ a{color: #21a557;}
 .g-center .m-pic .m-pic1{position: absolute; left: 50%; width:1620px; transform:translateX(-810px);}
 @media screen and (min-width: 1205px) {.g-center .m-main {position: relative; width: 1205px; margin: 0 auto; overflow: hidden;} }
 @media screen and (max-width: 1205px) {
+body{min-width:959px;}
 .m-notice, .g-header .m-title, .g-center .m-nav{width:959px;}
 .g-header, .g-center{min-width: 959px;}
 .g-footer .m-right{margin-left: 50px;}
